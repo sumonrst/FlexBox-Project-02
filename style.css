@@ -536,7 +536,7 @@ transition: all .3s ease-in-out;
 .authour_info {
   margin: 15px 0;
 }
-.authour_name h2 {
+.authour_name h3 {
   font-size: 15px;
   font-weight: 400;
   text-transform: capitalize;
