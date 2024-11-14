@@ -531,6 +531,7 @@ transition: all .3s ease-in-out;
 }
 .single_blog {
   flex-basis: 32%;
+  border: 1px solid #ddd;
 }
 .authour_info {
   margin: 15px 0;
@@ -540,7 +541,7 @@ transition: all .3s ease-in-out;
   font-weight: 400;
   text-transform: capitalize;
 }
-.authour_name h3 {
+.authour_name h4 {
   font-size: 15px;
   font-weight: 400;
   text-transform: capitalize;
@@ -559,15 +560,15 @@ transition: all .3s ease-in-out;
   font-weight: 600;
   margin: 25px 0;
 }
-.blog_content h2:before {
-  content: "";
-  position: absolute;
-  background-color: #000;
-  width: 60px;
-  height: 2px;
-  top: 32px;
-  left: 8%;
-  transform: translateX(-50%);
+.blog_content h2::before {
+	content: "";
+	position: absolute;
+	background-color: #000;
+	width: 60px;
+	height: 2px;
+	top: 81px;
+	left: 12%;
+	transform: translateX(-50%);
 }
 .blog_content:after {
   position: ;
