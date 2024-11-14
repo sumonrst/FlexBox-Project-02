@@ -343,6 +343,31 @@ transition: all .3s ease-in-out;
 
 
 
+/* Team section area start */
+
+.team_area {
+  background-color: #F9F9F9;
+  padding: 100px 0;
+}
+.team_title {
+  text-align: center;
+}
+.team_title h2 {
+  font-size: 36px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.team_title h2 span {
+  color: #fc6e51;
+}
+.team_title p {
+  max-width: 771px;
+  margin: 0 auto;
+}
+
+
+
 
 
 
