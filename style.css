@@ -389,12 +389,16 @@ transition: all .3s ease-in-out;
 }
 .single_team {
   flex-basis: 23%;
+  background-color: #fff;
 }
 
 
-
+.team_content {
+	font-size: 15px;
+	padding: 18px 18px;
+}
 .team_image h4 {
-  background-color: #282B3A;
+  background-color: #282B3AAD;
   padding: 7px 18px;
   border-right: 4px solid tomato;
   margin-left: -158px;
@@ -411,6 +415,31 @@ transition: all .3s ease-in-out;
   margin-left: 0px;
   transition: 0.5s;
 }
+
+.team_social {
+  justify-content: start;
+  display: flex;
+  margin: 17px 0;
+}
+.team_content ul li {
+  list-style: none;
+  margin-right: 22px;
+}
+.team_content i {
+  background-color: #fc6e51;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 30px;
+  color: #fff;
+}
+.team_content i:hover {
+	background-color: #ca5841;
+	color: #fff;
+}
+
+
 
 
 
