@@ -367,6 +367,52 @@ transition: all .3s ease-in-out;
 }
 
 
+.team {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.team_image {
+	overflow: hidden;
+	position: relative;
+	align-items: flex-end;
+	display: flex;
+}
+.team_image .image {
+  width: 100%;
+  /* transition:0.5s; */
+}
+.team_image h4 {
+  position: absolute;
+  color: #fff;
+}
+.single_team {
+  flex-basis: 23%;
+}
+
+
+
+.team_image h4 {
+  background-color: #282B3A;
+  padding: 7px 18px;
+  border-right: 4px solid tomato;
+  margin-left: -158px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 17px;
+  transition: 0.5s;
+}
+.team_image h4 span {
+  font-size: 13px;
+}
+
+.single_team:hover .team_image h4 {
+  margin-left: 0px;
+  transition: 0.5s;
+}
+
+
 
 
 
